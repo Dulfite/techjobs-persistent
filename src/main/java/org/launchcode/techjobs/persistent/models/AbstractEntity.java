@@ -1,10 +1,14 @@
 package org.launchcode.techjobs.persistent.models;
 
 import java.util.Objects;
+import javax.persistence.jar;
 
+//Fields and methods that are common across the Job class and the classes it contains as fields.
 
 public abstract class AbstractEntity {
 
+    @Id
+    @GeneratedValue
     private int id;
 
     private String name;
