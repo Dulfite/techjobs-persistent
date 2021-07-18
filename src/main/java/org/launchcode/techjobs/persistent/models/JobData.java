@@ -8,8 +8,6 @@ import java.util.ArrayList;
  * Created by LaunchCode
  */
 public class JobData {
-
-
     /**
      * Returns the results of searching the Jobs data by field and search term.
      *
@@ -86,7 +84,4 @@ public class JobData {
 
         return results;
     }
-
-
 }
-
